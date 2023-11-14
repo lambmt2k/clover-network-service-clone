@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+      show-sql: 'true'
+jwt:
+  secret: clover
+clover:
+  server_host: https://clover-network-service-fd0c2a440af1.herokuapp.com
+  local_host: localhost:8080
+
